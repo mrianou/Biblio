@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <title>Nanousse</title>
+  <id />
+  <author>
+    <name>David Pierron</name>
+    <uri>http://calibre2opds.com/</uri>
+    <email>dpierron+calibre2opds@gmail.com</email>
+  </author>
+  <updated>1973-01-26T08:00:00Z</updated>
+  <link href="./index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="self" title="Nanousse" />
+  <link href="./index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" title="Nanousse" />
+  <link href="./index.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="breadcrumb" title="Nanousse" />
+  <entry>
+    <title>Auteurs</title>
+    <id>Calibre2opds:authorlist</id>
+    <content type="text">Index alphabétique des 1 543 auteurs</content>
+    <link href="./authorlist/authorlist_Page_1.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" />
+    <link href="./authors.png" type="image/png" rel="http://opds-spec.org/image/thumbnail" />
+    <updated>1973-01-26T08:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Collections</title>
+    <id>Calibre2opds::serieslist</id>
+    <content type="text">Index alphabétique de 483 collections</content>
+    <link href="./serieslist/serieslist_Page_1.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" />
+    <link href="./series.png" type="image/png" rel="http://opds-spec.org/image/thumbnail" />
+    <updated>1973-01-26T08:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Étiquettes</title>
+    <id>Calibre2opds:taglist</id>
+    <content type="text">Index alphabétique des 40 étiquettes</content>
+    <link href="./taglist/taglist_Page_1.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" />
+    <link href="./tags.png" type="image/png" rel="http://opds-spec.org/image/thumbnail" />
+    <updated>1973-01-26T08:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Ajouts récents</title>
+    <id>Calibre2opds:recent</id>
+    <content type="text">500 livres les plus récents</content>
+    <link href="./recent/recent_Page_1.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" />
+    <link href="./recent.png" type="image/png" rel="http://opds-spec.org/image/thumbnail" />
+    <updated>1973-01-26T08:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Appréciations</title>
+    <id>Calibre2opds:rated</id>
+    <content type="text">3 479 livres, par appréciation</content>
+    <link href="./rated/rated.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" />
+    <link href="./ratings.png" type="image/png" rel="http://opds-spec.org/image/thumbnail" />
+    <updated>1973-01-26T08:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Tous les livres</title>
+    <id>Calibre2opds:allbooks</id>
+    <content type="text">Index alphabétique des 3 479 livres</content>
+    <link href="./allbooks/allbooks_Page_1.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation" />
+    <link href="./allbooks.png" type="image/png" rel="http://opds-spec.org/image/thumbnail" />
+    <updated>1973-01-26T08:00:00Z</updated>
+  </entry>
+</feed>
